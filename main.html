@@ -2,14 +2,29 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            background-color: rgb(255, 255, 0); /* yellow */
+            border-collapse: collapse;
+            border: 1px solid rgb(0, 0, 0); /* black */
+        }
+
+        th, td, tr {
+            border: 1px solid rgb(0, 0, 0); /* black */
+            padding: 8px;
+            text-align: center;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js"></script>
 
-    <table class="student-table">
+    <table>
         <caption>Student Details</caption>
 
         <thead>
@@ -32,6 +47,7 @@
                 <td>ECE</td>
             </tr>
         </tbody>
+
     </table>
 
 </body>
