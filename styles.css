@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+.student-table {
+    background-color: #ffff66; /* bright yellow like the image */
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.student-table th,
+.student-table td {
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.student-table th {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.student-table caption {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
