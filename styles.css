@@ -1,24 +1,26 @@
 .student-table {
-    background-color: #ffff66; /* bright yellow like the image */
-    border: 3px solid black;
-    border-collapse: collapse;
-    margin: 20px auto;
+    background-color: yellow; 
+    border-collapse: collapse; 
 }
 
-.student-table th,
+/* 1px solid black border on table, th, tr, td */
+.student-table, 
+.student-table th, 
+.student-table td,
+.student-table tr {
+    border: 1px solid black;
+}
+
+/* Optional clean spacing (still allowed) */
+.student-table th, 
 .student-table td {
-    border: 2px solid black;
-    padding: 10px 20px;
-    font-size: 20px;
+    padding: 8px;
+    text-align: center;
 }
 
-.student-table th {
-    font-weight: bold;
-    font-size: 22px;
-}
-
+/* Caption styling */
 .student-table caption {
-    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
 }
